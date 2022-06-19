@@ -1,14 +1,22 @@
 import UIKit
 
 
-
+/*
+ Input : arr[] = {"geeks", "for", "geeks", "a",
+                 "portal", "to", "learn", "can",
+                 "be", "computer", "science",
+                  "zoom", "yup", "fire", "in",
+                  "be", "data", "geeks"}
+ Output : Geeks
+ "geeks" is the most frequent word as it
+ occurs 3 times
+ */
 
 let arr = ["geeks", "for", "geeks", "a",
                 "portal", "to", "learn", "can",
                 "be", "computer", "science",
                  "zoom", "yup", "fire", "in",
     "be", "data", "geeks"]
-
 func mostWordInArray(givenArray : [String]){
     var docs = [String:Int]()
     for value in arr{
